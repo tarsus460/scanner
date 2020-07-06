@@ -6,6 +6,8 @@
 import webbrowser
 from selenium import webdriver
 
+# TODO: Launch Firefox with the newly created Selenium profile which downloads PDFs by default
+
 browser = webdriver.Firefox()
 browser.get('http://192.168.2.6/#hId-webscanPage')
 scanning = input('would you like to scan a document? Y/N ')
