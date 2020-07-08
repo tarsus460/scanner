@@ -18,8 +18,8 @@ def fileList():
 print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 print('!!!!!!!WAIT FOR FIREFOX TO LOAD THE PAGE BEFORE GIVING INPUT!!!!!!!')
 print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
-pathy = Path(r'C:\Users\mille\Downloads\test') # YOUR PATH WILL BE DIFFERENT
-pathee = Path(r'G:\Documents\scansMain')       # YOUR PATH WILL BE DIFFERENT
+pathy = Path(r'C:\your\origin\path\here') # YOUR PATH WILL BE DIFFERENT
+pathee = Path(r'G:\your\destination\path\here')       # YOUR PATH WILL BE DIFFERENT
 #TODO: Open the Selenium Firefox profile whenever Firefox is launched from this program
 browser = webdriver.Firefox()
 browser.get('http://192.168.2.6/#hId-webscanPage') # YOUR IP WILL BE DIFFERENT
